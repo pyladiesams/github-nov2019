@@ -1,6 +1,6 @@
 
-# An introduction to { YOUR TOPIC } with { LIBRARY YOU USE } 
-### Level: Beginner or Advanced
+# An introduction to Git, GitHub and Python virtual environments
+### Level: Beginner
 ### Presentation: (where your audience can find the presentation)
 
 ## Project description
