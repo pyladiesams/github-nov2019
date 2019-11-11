@@ -1,8 +1,8 @@
 
 # An introduction to Git, GitHub and Python virtual environments
 ### Level: Beginner
-### Presentation: git_presentation.key
-
+### Presentation: git_presentation.key (https://github.com/pyladiesams/GitHub-beginner-nov2019/blob/master/git_presentation.key)
+ 
 ## Project description
 In current workshop we will learn:
 * how to use a git-flow (using CLI) and github-flow.
