@@ -4,26 +4,55 @@
 ### Presentation: (where your audience can find the presentation)
 
 ## Project description
-Describe why your introduction to this topic is important and what you want to teach to your audience
+In current workshop we will learn:
+* how to use a git-flow (using CLI) and github-flow.
 
 
 ## Setup:
-Set up a Python 3 environment that can run Jupyter notebooks (Jupyter or Jupyterlab) and install the following libraries:
-* ...
 
-The easiest way to do this is to install [anaconda](https://www.anaconda.com/distribution/) and install the libraries in your root environment:
-```conda install matplotlib pandas seaborn```
+### Terminal.
+You will need to work with terminal. To open it in Mac machines you can access it from Applications -> Utilities -> Terminal.
+For Windows you will need from the command line (cmd) or in Windows Run (WIN +R) type: `wt`
 
-If you already have a running (ana)conda environment, you can use `intro.yml` to set up a separate enviroment:
-```conda env create -f environment.yml```
+### Set up a Python 3.
+If you already have it, you don't have to update it.
+To install Python you need to download an installer:
+* [Windows](https://www.python.org/downloads/windows/)
+* Linux, Mac already has to have Python3, if you're not sure, type in command line
+`python --version` or `python3 --version`
+and version will be in a first line. If you don't have proper version of python:
+* for Linux (Ubuntu): ```sudo apt-get update
+sudo apt-get install python3.7```
+* for Mac (you have to have [brew](https://brew.sh)): ``` brew install python3```
+
+### Install git.
+* [Mac](https://git-scm.com/download/mac)
+* [Windows](https://gitforwindows.org)
+* Linux (Ubuntu) ```sudo apt update sudo apt-get install git```
+
+Check you installed it properly with ```git --version```
+
+### Create a workspace
+It's handy to have a folder where all GitHub repos will be like `workspace`. You can do it if you go to a place where you want it, and create it with
+`mkdir workspace`
+`cd workspace` commands.
+
+### GitHub account.
+* Go to https://github.com and register.
+
+## Set up user.
+* Change the config with username and password:
+`git config --global user.name "Your name"`
+`git config --global user.email "email@email.com"`
+* You can check changes with `git config --list`
+
 
 ## Requirements
 * Python 3
-* ...
 
 ## Usage
 * Clone the repository
-* Start jupyter(lab) and navigate to the workshop folder
+* Go to `/workshop` and start with README.md
 
 ## Credits
-This workshop was set up by @pyladiesams and {your github}
+This workshop was set up by @pyladiesams and @tomasmor42
